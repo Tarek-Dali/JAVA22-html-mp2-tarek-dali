@@ -1,0 +1,45 @@
+.flex-burger {
+    display: flex;
+    /* border: 3px solid blue; */
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.burger {
+    /* border: 3px solid red; */
+    cursor: pointer;
+    background-color: bisque;
+    background-image: linear-gradient(bisque, white);
+}
+
+.flex-burger p {
+    text-align: center;
+    font-family: bold;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.burger img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: crimson;
+    text-decoration: underline;
+}
+
+.footer-bg {
+    background-color: rgb(148, 195, 30);
+}
+
+.footer-bg p {
+    color: red;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer-bg p a {
+    text-decoration: none;
+}
